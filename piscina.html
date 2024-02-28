@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piscina</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="booking.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Piscina</h1>
+    </header>
+    <main>
+        <section>
+            <p>La nostra piscina è un'oasi di freschezza e relax, ideale per rinfrescarsi e rigenerarsi durante la giornata. 
+			Circondata da un ambiente tranquillo e accogliente, la piscina offre un rifugio perfetto per una pausa rigenerante dallo stress quotidiano. 
+			Con acqua cristallina e un'atmosfera serena, vi invitiamo a godervi momenti di tranquillità e relax sotto il sole. 
+			Un luogo perfetto per rilassarsi e ricaricare le energie.</p>
+            <form id="bookingForm">
+			<img src="piscinaimg.jpg" alt="Descrizione dell'immagine" width="500" height="400"> <br>
+                <label for="date">Data:</label>
+                <input type="date" id="date" required>
+                <label for="time">Ora:</label>
+                <input type="time" id="time" required>
+                <label for="people">Numero di persone:</label>
+                <input type="number" id="people" min="1" required>
+                <button type="submit">Prenota</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Parthenope Village</p>
+    </footer>
+</body>
+</html>

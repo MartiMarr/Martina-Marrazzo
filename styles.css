@@ -1,0 +1,56 @@
+/* Stili per il layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color:#3B3B3B;
+	color: #fff;
+}
+
+header, footer {
+    background-color: #ff7f50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+	font-family: Open Sans , sans-serif;
+}
+
+section {
+    margin-bottom: 2rem;
+    font-size: 20px; /* Imposta la grandezza del testo all'interno di section a 18 pixel */
+	font-family: Open Sans, sans-serif;
+}
+
+/* Stili per il menu */
+ul {
+    list-style-type: none;
+    padding: 0;
+	color: #ff7f50;
+}
+
+li {
+    margin-bottom: 1rem;
+	color: #ff7f50;
+}
+
+a {
+    text-decoration: none;
+    color: #ff7f50;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #666;
+}
+.link-bold-big {
+    font-weight: bold; /* Imposta il testo in grassetto */
+    font-size: 25px; /* Imposta la dimensione del testo a 35 pixel */
+	font-family: Open Sans , sans-serif;
+}
+.link-lato {
+    font-family: 'Lato', sans-serif; /* Cambia il font solo per i link */
+}
